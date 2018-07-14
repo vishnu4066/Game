@@ -1,0 +1,43 @@
+#open {
+	margin-left: 510px;
+	margin-top : 0;
+	padding-top: 0%;
+}
+
+#close {
+	margin-left: 510px;
+	margin-top : 0;
+	padding-top: 0%;
+}
+
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+#gameboard {
+    position : relative;
+    margin:10% 10% 10% 10%;
+}
+
+#move {
+	width : 15%;
+	position : relative;
+	animation: move 8s infinite;
+	animation-direction: alternate;
+}
+
+@keyframes move {
+    0%   { left: 10%; }
+    100%  { left: 80%; }
+}
+
+#fall {
+	position: absolute;
+	top : 0px;
+	right:610px;
+	width: 60px;
+}
+
+
